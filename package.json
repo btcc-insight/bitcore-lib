@@ -1,0 +1,89 @@
+{
+  "_from": "bitcore-lib@5.0.0-beta.1",
+  "_id": "bitcore-lib@5.0.0-beta.1",
+  "_inBundle": false,
+  "_integrity": "sha512-y8aCkNJQieCPacLpW9wdg6Un2iAC/5Nt7g/lRHhK6PwrXw7dxXwc7eZOd87oPGn6bAd4jBd8YTCqIqwpf3UQsA==",
+  "_location": "/bitcore-lib",
+  "_phantomChildren": {
+    "brorand": "1.1.0",
+    "hash.js": "1.1.5"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bitcore-lib@5.0.0-beta.1",
+    "name": "bitcore-lib",
+    "escapedName": "bitcore-lib",
+    "rawSpec": "5.0.0-beta.1",
+    "saveSpec": null,
+    "fetchSpec": "5.0.0-beta.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/bitcore-p2p",
+    "/insight-api"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitcore-lib/-/bitcore-lib-5.0.0-beta.1.tgz",
+  "_shasum": "27270b7524ebdfa0fa940c6ff9497b1f7d25d3ec",
+  "_spec": "bitcore-lib@5.0.0-beta.1",
+  "_where": "/root/bitcore4/bitcore-node",
+  "author": {
+    "name": "BitPay",
+    "email": "dev@bitpay.com"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-lib/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "=3.10.1"
+  },
+  "deprecated": false,
+  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "devDependencies": {
+    "bitcore-build": "github:bitpay/bitcore-build",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "homepage": "https://github.com/bitpay/bitcore-lib#readme",
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bitcore-lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitpay/bitcore-lib.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test"
+  },
+  "version": "5.0.0-beta.1"
+}
